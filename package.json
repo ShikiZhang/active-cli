@@ -1,0 +1,27 @@
+{
+  "name": "jd-act-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "act": "bin/jdActiveCli",
+    "active-cli": "bin/jdActiveCli"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "zhanghong",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.16.0",
+    "mem-fs": "^1.1.3",
+    "mem-fs-editor": "^5.1.0",
+    "mkdirp": "^0.5.1",
+    "path-exists": "^3.0.0",
+    "vinyl": "^2.2.0"
+  }
+}
